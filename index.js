@@ -21,6 +21,10 @@ new Docute({
         {
           title: '保护及解决办法',
           link: '/account/protect'
+        },
+        {
+          title: '如何解锁',
+          link: '/account/how-to-unlock'
         }
       ]
     },
