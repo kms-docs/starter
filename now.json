@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "alias": "kms-docs",
+  "builds": [
+    {
+      "src": "*.html",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.js",
+      "use": "@now/static"
+    },
+    {
+      "src": "**/*.md",
+      "use": "@now/static"
+    }
+  ],
+  "github": {
+    "silent": true
+  }
+}
