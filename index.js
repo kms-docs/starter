@@ -1,6 +1,8 @@
 new Docute({
   target: 'app',
   sourcePath: '/docs',
+  editLinkBase: 'https://github.com/kms-docs/starter/tree/master/docs',
+  editLinkText: '完善这个文档',
   plugins: [
     docuteCustomContainer()
   ],
@@ -38,6 +40,15 @@ new Docute({
         {
           title: '"智障"的游戏经验以及感想',
           link: '/share/zhizhang'
+        }
+      ]
+    },
+    {
+      title: '杂项',
+      links: [
+        {
+          title: 'NAVER账号邮箱截图方法',
+          link: '/misc/naver-screenshot'
         }
       ]
     }
