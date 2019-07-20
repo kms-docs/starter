@@ -47,6 +47,10 @@ new Docute({
       title: '杂项',
       links: [
         {
+          title: '职业对照表',
+          link: '/misc/jobs'
+        },
+        {
           title: 'NAVER账号邮箱截图方法',
           link: '/misc/naver-screenshot'
         }
