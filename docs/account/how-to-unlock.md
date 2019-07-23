@@ -16,9 +16,11 @@
 
 <ImageZoom :border="false" src="https://i.loli.net/2019/07/17/5d2f3483a8ade31526.png" />
 
-::: tip
+<Note type="success" label="tip">
+
 如果你的浏览器能翻译韩文，可以按如下顺序进入申诉界面 游戏终止/账户查询→联系我们→禁用枫木故事保护模式
-:::
+
+</Note>
 
 ## 3. 填写申诉表，具体如下
 

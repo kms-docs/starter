@@ -5,13 +5,14 @@
 1. 谷歌浏览器 (建议理由是自带翻译功能)
 2. 应用商店下载 NAVER 备用 (绿底白字)
 
-::: danger
+<Note type="danger" fill :label="false">
 全程请不用开vpn
-:::
+</Note>
 
-::: danger
+<Note type="danger" fill :label="false">
 全程请不用开vpn
-:::
+</Note>
+
 
 ## 步骤
 
@@ -29,9 +30,9 @@
 
 <ImageZoom :border="false" src="https://i.loli.net/2019/07/18/5d2f4bef0f9d248448.png" />
 
-::: danger
+<Note type="danger" fill :label="false">
 填写手机号，中国大陆选+86，然后接收验证码（一个手机号只能接收一次验证码）
-:::
+</Note>
 
 <ImageZoom :border="false" src="https://i.loli.net/2019/07/18/5d2f4c62754bb15159.png" />
 
