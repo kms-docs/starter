@@ -4,7 +4,9 @@
 
 言归正传，申诉解锁具体步骤如下：
 
-## 1. [点击进入如下网站](https://help.naver.com/support/contents/contents.nhn?serviceNo=801&categoryNo=17522)并点击倒数第二个图标
+## 1. 点击进入如下网站并点击倒数第二个图标
+
+https://help.naver.com/support/contents/contents.nhn?serviceNo=801&categoryNo=17522
 
 <ImageZoom :border="false" src="https://i.loli.net/2019/07/17/5d2f3322e994729495.png" />
 
@@ -16,7 +18,7 @@
 
 <ImageZoom :border="false" src="https://i.loli.net/2019/07/17/5d2f3483a8ade31526.png" />
 
-<Note type="success" label="tip">
+<Note type="success" :label="false" fill>
 
 如果你的浏览器能翻译韩文，可以按如下顺序进入申诉界面 游戏终止/账户查询→联系我们→禁用枫木故事保护模式
 

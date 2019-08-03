@@ -16,9 +16,9 @@
 
 ## 步骤
 
-### 1. www.naver.com
+### 1.打开 naver 官网
 
-右侧点击注册
+www.naver.com 并在右侧点击注册
 
 <ImageZoom :border="false" src="https://i.loli.net/2019/07/18/5d2f4b0d6c9e622689.png" />
 
