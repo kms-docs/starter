@@ -2,7 +2,8 @@ new Saika({
   target: 'app',
   sourcePath: '/docs',
   plugins: [
-    saikaThemeDocs
+    saikaThemeDocs,
+    saikaGoogleAnalytics('UA-145247644-3')
   ],
   nav: [
     {
