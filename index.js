@@ -1,7 +1,9 @@
 new Saika({
   target: 'app',
   sourcePath: '/docs',
-  theme: 'docs',
+  plugins: [
+    saikaThemeDocs
+  ],
   nav: [
     {
       title: 'GitHub',
@@ -28,7 +30,12 @@ new Saika({
     },
     {
       title: '攻略',
-      links: []
+      links: [
+        {
+          title: '没有',
+          link: '/notfound'
+        }
+      ]
     },
     {
       title: '分享',
