@@ -3,8 +3,7 @@ new Saika({
   sourcePath: '/docs',
   plugins: [
     saikaThemeDocs,
-    saikaGoogleAnalytics('UA-145247644-3'),
-    footerPlugin()
+    saikaGoogleAnalytics('UA-145247644-3')
   ],
   nav: [
     {
@@ -61,21 +60,10 @@ new Saika({
         }
       ]
     }
-  ]
-})
+  ],
 
-function footerPlugin() {
-  return {
-    name: 'footer-plugin',
-    extend: api => {
-      api.registerComponent('content:end', {
-        template: `<div style="margin-top: 3rem;">
-          © Made with <font color="red">❤</font> by
-          <a href="https://github.com/evillt">EVILLT</a>.
-          Powered by
-          <a href="https://saika.dev" target="_blank">Saika</a>.
-        </div>`
-      })
-    }
-  }
-}
+  footer: `© Made with <font color="red">❤</font> by
+    <a href="https://github.com/evillt">EVILLT</a>.
+    Powered by
+    <a href="https://saika.dev" target="_blank">Saika</a>.`
+})
