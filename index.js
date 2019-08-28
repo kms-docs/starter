@@ -13,6 +13,19 @@ new Saika({
   ],
   posts: [
     {
+      title: '起步',
+      links: [
+        {
+          title: '下载游戏',
+          link: '/start/download'
+        },
+        {
+          title: '设置运行环境',
+          link: '/start/environment'
+        }
+      ]
+    },
+    {
       title: '账号',
       links: [
         {
@@ -26,15 +39,6 @@ new Saika({
         {
           title: '如何解锁',
           link: '/account/how-to-unlock'
-        }
-      ]
-    },
-    {
-      title: '攻略',
-      links: [
-        {
-          title: '没有',
-          link: '/notfound'
         }
       ]
     },
