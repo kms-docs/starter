@@ -1,6 +1,10 @@
 new Saika({
   target: 'app',
   sourcePath: '/docs',
+  editLink: {
+    baseUrl: 'https://github.com/kms-docs/starter/tree/master/docs',
+    text: '帮助我们完善此页面'
+  },
   plugins: [
     saikaThemeDocs,
     saikaGoogleAnalytics('UA-145247644-3')
