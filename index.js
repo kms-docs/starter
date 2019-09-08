@@ -16,6 +16,10 @@ new Saika({
       title: '起步',
       links: [
         {
+          title: '介绍',
+          link: '/'
+        },
+        {
           title: '下载游戏',
           link: '/start/download'
         },
