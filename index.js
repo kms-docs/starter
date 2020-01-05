@@ -54,6 +54,10 @@ new Saika({
       title: '分享',
       links: [
         {
+          title: '直播间',
+          link: '/share/live'
+        },
+        {
           title: '"智障"的游戏经验以及感想',
           link: '/share/zhizhang'
         }
