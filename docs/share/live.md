@@ -14,7 +14,7 @@
 
 - https://www.douyu.com/6393782
 
-## 月牙天冲
+## 月牙天冲 <Badge content="HOT" color="#f04" />
 
 - https://www.douyu.com/6440391
 
