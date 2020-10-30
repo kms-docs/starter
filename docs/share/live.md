@@ -21,3 +21,7 @@
 ## TopAPCarry
 
 - https://www.douyu.com/7558512
+
+## 杰瑞Jerry氵
+
+- https://www.douyu.com/670209
