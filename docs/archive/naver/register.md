@@ -1,3 +1,5 @@
+<Note type="error" :label="false" fill>Naver 于 2020 年 10 月 30 日终止注册账号服务，因此有关 naver 账号相关的可能已经失效。</Note>
+
 # 注册
 
 准备:

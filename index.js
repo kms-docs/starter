@@ -24,39 +24,26 @@ new Saika({
           link: '/'
         },
         {
+          title: '群聊',
+          link: '/start/group-chat'
+        },
+        {
           title: '下载游戏',
           link: '/start/download'
         },
         {
-          title: '设置运行环境',
+          title: '配置运行环境',
           link: '/start/environment'
         }
       ]
     },
     {
-      title: '账号',
-      links: [
-        {
-          title: '注册',
-          link: '/account/register'
-        },
-        {
-          title: '保护及解决办法',
-          link: '/account/protect'
-        },
-        {
-          title: '如何解锁',
-          link: '/account/how-to-unlock'
-        }
-      ]
+      title: '直播间',
+      link: '/live'
     },
     {
-      title: '分享',
+      title: '游戏经验分享',
       links: [
-        {
-          title: '直播间',
-          link: '/share/live'
-        },
         {
           title: '"智障"的游戏经验以及感想',
           link: '/share/zhizhang'
@@ -64,18 +51,30 @@ new Saika({
       ]
     },
     {
-      title: '杂项',
+      title: '职业对照表',
+      link: '/jobs'
+    },
+    {
+      title: '归档',
       links: [
         {
-          title: '职业对照表',
-          link: '/misc/jobs'
+          title: '注册 naver 号',
+          link: '/archive/naver/register'
+        },
+        {
+          title: '保护及解决办法',
+          link: '/archive/naver/protect'
+        },
+        {
+          title: '如何解锁',
+          link: '/archive/naver/how-to-unlock'
         },
         {
           title: 'NAVER账号邮箱截图方法',
-          link: '/misc/naver-screenshot'
+          link: '/archive/naver/email-screenshot'
         }
       ]
-    }
+    },
   ],
 
   footer: `© Made with <font color="red">❤</font> by
