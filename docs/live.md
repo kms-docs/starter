@@ -1,6 +1,6 @@
 # 直播间
 
-这里的直播间都有玩韩服。
+可以通过观看韩服玩家的直播间了解更多或者提出问题。
 
 ## 站长自己的
 
@@ -14,7 +14,7 @@
 
 - https://www.douyu.com/6393782
 
-## 月牙天冲 <Badge content="HOT" color="#f04" />
+## 橙色月牙天冲 <Badge content="HOT" color="#f04" />
 
 - https://www.douyu.com/6440391
 

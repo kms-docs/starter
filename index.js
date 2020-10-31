@@ -24,10 +24,6 @@ new Saika({
           link: '/'
         },
         {
-          title: '群聊',
-          link: '/start/group-chat'
-        },
-        {
           title: '下载游戏',
           link: '/start/download'
         },
@@ -36,6 +32,10 @@ new Saika({
           link: '/start/environment'
         }
       ]
+    },
+    {
+      title: '群聊',
+      link: '/group-chat'
     },
     {
       title: '直播间',
