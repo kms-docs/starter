@@ -7,7 +7,8 @@ new Saika({
   },
   plugins: [
     saikaThemeDocs,
-    saikaGoogleAnalytics('UA-145247644-3')
+    saikaGoogleAnalytics('UA-145247644-3'),
+    RIP()
   ],
   nav: [
     {
@@ -82,3 +83,18 @@ new Saika({
     Powered by
     <a href="https://saika.dev" target="_blank">Saika</a>.`
 })
+
+function RIP() {
+  return {
+    extend: api => {
+      api.registerComponent('content:start', {
+        template: `<div>
+          <Note fill type="error" :label="false">KMS 由于账号问题，导致大量国人玩家退坑了，
+            转而进驻其他服（如 gms，tms。
+            因此本站不再作任何更新。
+          </Note>
+        </div>`,
+      })
+    }
+  }
+}
